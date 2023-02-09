@@ -3,13 +3,14 @@ import "./styles/navbar.css"
 import "./index.css"
 import "./ContactForm"
 import ContactForm from "./ContactForm";
-
+import UncontrolledExample from "./components/UncontrolledExample"
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <UncontrolledExample/>
       <div className="container">
         <article>
           <h1>How is Mahdi Mzoughi ? </h1>
